@@ -1,9 +1,24 @@
 body {
-    background-color: powderblue;
+    background-color: black;
   }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+
+.flex_container {
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  color: white;
+  font-family: "Micro 5";
+  font-size: 120px;
+  height: 0px;
+  text-align: left;
+  padding-left: 40px;
+}
+p {
+  color: white;
+  font-family: "Micro 5";
+  font-size: 30px;
+  height: 0px;
+  text-align: left;
+  padding-left: 40px;
+}
