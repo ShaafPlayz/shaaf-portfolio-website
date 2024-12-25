@@ -1,6 +1,17 @@
 body {
     background-color: white;
   }
+
+@font-face {
+  font-family: "myfont";
+  src: url('./fonts/micro5.ttf') format('embedded-opentype'), /* Internet Explorer */
+      url('../fonts/micro5.ttf') format('woff2'),             /* Super Modern Browsers */
+      url('./fonts/micro5.ttf') format('woff'),              /* Pretty Modern Browsers */
+      url('./fonts/micro5.ttf') format('truetype'),          /* Safari, Android, iOS */
+      url('./fonts/micro5.ttf') format('svg');
+}
+
+
 .navbar {
   height: 10%;
   display: flex;
@@ -40,7 +51,7 @@ body {
 }
 h1{
   color: black;
-  font-family: "Micro 5";
+  font-family: "myfont";
   font-size: 110px;
   height: 85px;
   text-align: center;
