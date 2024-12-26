@@ -47,10 +47,25 @@ body {
   margin-top: 1px;
   justify-content: center;
 }
+.indexu {
+  display: flex;
+  height: 5%;
+  position: relative;
+  right: 2px;
+  margin: 0px;
+  justify-content: center;
+
+}
 
 .squareh {
   background-color: black;
   width: 44px;
+  margin-bottom: -10px;
+}
+.squarehu {
+  background-color: black;
+  width: 44px;
+  margin-top: -10px;
 }
 
 .me {
@@ -65,6 +80,7 @@ body {
 .squarea {
   background-color: black;
   width: 85px;
+  margin-bottom: -10px;
 }
 
 .creations {
@@ -79,6 +95,7 @@ body {
 .squarec {
   background-color: black;
   width: 85px;
+  margin-bottom: -10px;
 }
 
 .flex_container {
@@ -87,6 +104,14 @@ body {
   height: 90%;
   justify-content: center;
 }
+
+.flex_containeru {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  justify-content: center;
+}
+
 h1{
   color: black;
   font-family: "myfont", serif;
