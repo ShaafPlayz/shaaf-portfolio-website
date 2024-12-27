@@ -6,9 +6,44 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width: 673px) {
-  .home{margin-left: 150px;}
+@media (max-width: 500px) {
+  .HideOnMobile {
+    display: none;
+  }
+  .ShowOnMobile {
+    display: flex;
+  }
 }
+
+@media (min-width: 500px) {
+  .HideOnMobile {
+    display: initial;
+  }
+  .ShowOnMobile {
+    display: none;
+  }
+}
+
+.showonMobile {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.error {
+  font-family: "myfont";
+  width: 90%;
+  font-size: 40px;
+}
+.desktop{
+  color: white;
+}
+.size {
+  color: gray;
+}
+
+
 
 @font-face {
   font-family: "myfont";
