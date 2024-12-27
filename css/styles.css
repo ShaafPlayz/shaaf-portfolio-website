@@ -1,11 +1,38 @@
 body {
-  background-image: linear-gradient(to right, #000000, #262626);
+  background-image: linear-gradient(to right, #000000, #282003);
   margin: 2vh;
   height: 96vh;
   border: 0.1px solid white;
   overflow: hidden;
 }
 
+/*Fonts here*/
+@font-face {
+  font-family: "micro";
+  src: url('./fonts/micro5.ttf') format('embedded-opentype'), /* Internet Explorer */
+  url('../fonts/micro5.ttf') format('woff2'),             /* Super Modern Browsers */
+  url('./fonts/micro5.ttf') format('woff'),              /* Pretty Modern Browsers */
+  url('./fonts/micro5.ttf') format('truetype'),          /* Safari, Android, iOS */
+  url('./fonts/micro5.ttf') format('svg');
+}
+@font-face {
+  font-family: "myfont2";
+  src: url('./fonts/NexaL.ttf') format('embedded-opentype'), /* Internet Explorer */
+  url('../fonts/NexaL.ttf') format('woff2'),             /* Super Modern Browsers */
+  url('./fonts/NexaL.ttf') format('woff'),              /* Pretty Modern Browsers */
+  url('./fonts/NexaL.ttf') format('truetype'),          /* Safari, Android, iOS */
+  url('./fonts/NexaL.ttf') format('svg');
+}
+@font-face {
+  font-family: "myfont";
+  src: url('./fonts/NexaH.ttf') format('embedded-opentype'), /* Internet Explorer */
+  url('../fonts/NexaH.ttf') format('woff2'),             /* Super Modern Browsers */
+  url('./fonts/NexaH.ttf') format('woff'),              /* Pretty Modern Browsers */
+  url('./fonts/NexaH.ttf') format('truetype'),          /* Safari, Android, iOS */
+  url('./fonts/NexaH.ttf') format('svg');
+}
+
+/*Mobile Display here*/
 @media (max-width: 500px) {
   .HideOnMobile {
     display: none;
@@ -24,6 +51,7 @@ body {
   }
 }
 
+/*Error message on mobile here*/
 .showonMobile {
   justify-content: center;
   flex-direction: column;
@@ -44,24 +72,24 @@ body {
 }
 
 
-
-@font-face {
-  font-family: "myfont";
-  src: url('./fonts/micro5.ttf') format('embedded-opentype'), /* Internet Explorer */
-      url('../fonts/micro5.ttf') format('woff2'),             /* Super Modern Browsers */
-      url('./fonts/micro5.ttf') format('woff'),              /* Pretty Modern Browsers */
-      url('./fonts/micro5.ttf') format('truetype'),          /* Safari, Android, iOS */
-      url('./fonts/micro5.ttf') format('svg');
-}
-
-/*Sidebar is implemented under this comment so its easier to find*/
+/*Sidebar*/
 .sidenavbar {
   width: 200px;
   position: fixed;
+  height: 100vh;
   /*z-index: 1;*/
   left: 50px;
   /*overflow: hidden;*/
-  /*top: 45vh;*/
+  align-content: center;
+}
+
+/*Logo on top right*/
+img{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  left: 40px;
+  top: 40px;
 }
 
 .logo {
@@ -71,25 +99,73 @@ body {
   top:20px;
   left: 50px;
   color: white;
-  font-family: "myfont", serif;
 }
 .watermark {
+  position: fixed;
+  font-family: "micro", serif;
   font-size: 110px;
   height: 80px;
+  margin-left: 3px;
 }
 .page {
+  font-family: "myfont2", serif;
+  position: fixed;
   color: gray;
-  font-size: 40px;
+  top: 135px;
+  font-size: 20px;
   margin: 0;
   height: 30px;
 }
+.buildupdate {
+  font-family: "myfont2", serif;
+  position: fixed;
+  color: #78620A;
+  bottom: 75px;
+  font-size: 15px;
+  margin: 0;
+  height: 30px;
+}
+.build {
+  font-family: "myfont2", serif;
+  position: fixed;
+  color: #78620A;
+  bottom: 60px;
+  font-size: 20px;
+  margin: 0;
+  height: 30px;
+}
+.buildbottom {
+  font-family: "myfont2", serif;
+  position: fixed;
+  color: #78620A;
+  bottom: 42px;
+  font-size: 13.7px;
+  margin: 0;
+  height: 30px;
+}
+.copyright {
+  font-family: "myfont2", serif;
+  position: fixed;
+  color: #454545;
+  bottom: 40px;
+  font-size: 10px;
+  margin: 0;
+  height: auto;
+}
 
-
-/*Navigation Buttons are here so i dont forget*/
+/*Navigation thingies*/
+h2{
+  color: white;
+  font-family: "myfont2", serif;
+  font-size: 70px;
+  text-align: left;
+  height: 65px;
+  margin: 0;
+}
 .button {
   display: block;
-  font-family: "myfont", serif;
-  font-size: 30px;
+  font-family: "myfont2", serif;
+  font-size: 20px;
   height: max-content;
   color: gray;
   text-decoration: none;
@@ -97,11 +173,11 @@ body {
 }
 .selected {
   color: white;
-  height: 28px;
+  /*height: 28px;*/
 }
 .selected:hover {
   color: white;
-  height: 28px;
+  /*height: 28px;*/
 }
 .unselected:hover {
   color: darkslategray;
@@ -110,31 +186,83 @@ body {
 
 /*My Bio for home page is here*/
 .home {
-  margin-left: 190px;
-  /*display: grid;*/
-  /*align-items: center;*/
-  /*align-self: center;*/
+
 }
+
 h1{
   color: white;
+
   font-family: "myfont", serif;
-  font-size: 80px;
-  height: 65px;
+  font-size: 60px;
+  text-align: right;
+  height: auto;
   margin: 0;
 }
+
 p {
-  color: yellow;
-  font-family: "myfont", serif;
-  font-size: 50px;
+  color: darkgoldenrod;
+  text-align: right;
+  font-family: "myfont2", serif;
+  font-size: 30px;
   height: auto;
   margin: 0;
   font-weight: bold;
 }
-
-/*This is what gives the website a border and contains everything we see*/
-.flex_containeru {
-  height: 100%;
+p:hover {
+  color: gray;
+}
+.greettop {
   display: flex;
-  justify-content: left;
-  align-items: center;
+  flex-direction: row;
+  justify-content: right;
+}
+.mono1{
+  font-family: "micro";
+  font-size: 92px;
+}
+
+#const {
+  color: transparent;
+  font-family: "myfont2", serif;
+  font-size: 30px;
+  text-align: right;
+  height: auto;
+  margin: 0;
+}
+#const1:hover {
+  color: yellow;
+}
+#const1 {
+  color: white;
+  font-family: "myfont2", serif;
+  font-size: 30px;
+  text-align: right;
+  height: auto;
+  margin: 0;
+}
+#const2 {
+  color: white;
+  font-family: "myfont", serif;
+  font-size: 20px;
+  text-align: right;
+  height: auto;
+  margin: 0;
+}
+.flex_containeru {
+  height: 96vh;
+  align-content: center;
+  margin-left: 200px;
+  margin-right: 50px;
+  overflow: auto;
+}
+.flex_containeru::-webkit-scrollbar {
+  display: none;
+}
+.flex_containeru {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.empty {
+  height: 30vh;
 }
