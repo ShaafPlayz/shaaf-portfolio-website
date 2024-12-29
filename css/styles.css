@@ -415,15 +415,16 @@ p:hover {
   }
   .flex_containeru {
     margin-left: 0%;
-    margin-right: 0%;
-    text-size-adjust: 15%;
+    margin-right: 5%;
     overflow-x: hidden;
     postion: relative;
   }
   .flex_containerC {
-    margin-left: 0%;
-    margin-right: 0%;
-    text-size-adjust: 15%;
+    display: inline-block;
+    text-align: center;
+    width: 94%;
+    margin-left: 3vw;
+    margin-right: 3vw;
     align-content: center;
     overflow-x: hidden;
     position: relative;
@@ -432,30 +433,42 @@ p:hover {
   }
   .Project {
     text-align: center;
+    font-size: 5vw;
   }
   .Projectunder {
     text-align: center;
+    font-size: 3vw;
   }
   .empty {
     margin-top: 0px;
     margin-bottom: 4px;
   }
+  #const1 {
+    font-size: 6vw;
+  }
   .mono1 {
-    height: 46%;
+    font-size: 19vw;
+    height: auto;
+  }
+  #spacer {
+    display: none;
   }
   .greet2 {
-    height: 10%;
+    font-size: 13vw;
+    height: auto;
   }
   .icon {
-    top:15%;
-    width: 6%;
+    top: 8vw;
+    width: 2vw;
     padding-left: 4%;
   }
   .me {
-    height: 8%;
-    width: 15%;
+    height: 10vw;
+    width: 20vw;
+    font-size: 6vw;
     margin-top: 6%;
   }
+
   .greetbottom {
     flex-direction: column;
     align-items: flex-end;
@@ -467,6 +480,7 @@ p:hover {
  }
   .clickedhome{
     position: absolute;
+    z-index: 10;
     right: 30px;
     top: 36px;
     width: fit-content;
