@@ -416,14 +416,16 @@ p:hover {
     margin-left: 20px;
     margin-right: 20px;
     text-size-adjust: 15%;
-    overflow-x: hidden;
+    overflow: hidden;
+    postion: relative;
   }
   .flex_containerC {
     margin-left: 20px;
     margin-right: 20px;
     text-size-adjust: 35%;
     align-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
+    position: relative;
 
   }
   .Project {
