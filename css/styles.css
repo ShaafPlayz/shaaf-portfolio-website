@@ -415,12 +415,12 @@ p:hover {
   .flex_containeru {
     margin-left: 20px;
     margin-right: 20px;
-    text-size-adjust: 35%;
+    text-size-adjust: 15%;
   }
   .flex_containerC {
     margin-left: 20px;
     margin-right: 20px;
-    text-size-adjust: 40%;
+    text-size-adjust: 35%;
     align-content: center;
 
   }
@@ -435,7 +435,7 @@ p:hover {
     margin-bottom: 4px;
   }
   .mono1 {
-    height: 56%;
+    height: 46%;
   }
   .greet2 {
     height: 10%;
