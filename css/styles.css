@@ -448,14 +448,15 @@ p:hover {
   }
   .mono1 {
     font-size: 19vw;
-    height: auto;
+    height: 13vw;
+    letter-spacing: -.5vw;
   }
   #spacer {
     display: none;
   }
   .greet2 {
     font-size: 13vw;
-    height: auto;
+    height: 16vw;
   }
   .icon {
     top: 8vw;
