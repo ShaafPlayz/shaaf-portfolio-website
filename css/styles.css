@@ -421,6 +421,7 @@ p:hover {
     margin-left: 20px;
     margin-right: 20px;
     text-size-adjust: 40%;
+    align-content: center;
 
   }
   .Project {
