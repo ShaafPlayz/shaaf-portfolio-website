@@ -5,10 +5,6 @@ body {
   overflow: hidden;
 }
 .creations {
-  margin: 2vh;
-  height: 96vh;
-  overflow-x: hidden;
-  position: relative;
   background-image: url("../resources/bckcreations.png");
 }
 
@@ -420,12 +416,14 @@ p:hover {
     margin-left: 20px;
     margin-right: 20px;
     text-size-adjust: 15%;
+    overflow-x: hidden;
   }
   .flex_containerC {
     margin-left: 20px;
     margin-right: 20px;
     text-size-adjust: 35%;
     align-content: center;
+    overflow-x: hidden;
 
   }
   .Project {
