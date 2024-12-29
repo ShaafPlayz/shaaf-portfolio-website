@@ -417,7 +417,7 @@ p:hover {
     margin-left: 0%;
     margin-right: 0%;
     text-size-adjust: 15%;
-    overflow: hidden;
+    overflow-x: hidden;
     postion: relative;
   }
   .flex_containerC {
@@ -425,7 +425,7 @@ p:hover {
     margin-right: 0%;
     text-size-adjust: 35%;
     align-content: center;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
     
 
