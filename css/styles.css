@@ -444,12 +444,13 @@ p:hover {
     margin-bottom: 4px;
   }
   #const1 {
-    font-size: 6vw;
+    font-size: 5vw;
+    letter-spacing: -0.2vw;
   }
   .mono1 {
     font-size: 19vw;
     height: 13vw;
-    letter-spacing: -.5vw;
+    letter-spacing: -0.7vw;
   }
   #spacer {
     display: none;
@@ -459,15 +460,15 @@ p:hover {
     height: 16vw;
   }
   .icon {
-    top: 8vw;
-    width: 2vw;
-    padding-left: 4%;
+    top: 5.3vw;
+    width: 3vw;
+    padding-left: 6%;
   }
   .me {
-    height: 10vw;
+    height: 7vw;
     width: 20vw;
-    font-size: 6vw;
-    margin-top: 6%;
+    font-size: 4.5vw;
+    margin-top: 8%;
   }
 
   .greetbottom {
