@@ -3,6 +3,7 @@ body {
   margin: 2vh;
   height: 96vh;
   overflow: hidden;
+  postion: relative;
 }
 .creations {
   background-image: url("../resources/bckcreations.png");
@@ -413,19 +414,20 @@ p:hover {
     display: none;
   }
   .flex_containeru {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
     text-size-adjust: 15%;
     overflow: hidden;
     postion: relative;
   }
   .flex_containerC {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
     text-size-adjust: 35%;
     align-content: center;
     overflow: hidden;
     position: relative;
+    
 
   }
   .Project {
