@@ -434,20 +434,20 @@ p:hover {
     margin-bottom: 4px;
   }
   .mono1 {
-    height: 26px;
+    height: 26%;
   }
   .greet2 {
-    height: 30px;
+    height: 30%;
   }
   .icon {
-    top:15px;
-    width: 6px;
-    padding-left: 4px;
+    top:15%;
+    width: 6%;
+    padding-left: 4%;
   }
   .me {
-    height: 18px;
-    width: 33px;
-    margin-top: 6px;
+    height: 18%;
+    width: 33%;
+    margin-top: 6%;
   }
   .greetbottom {
     flex-direction: column;
