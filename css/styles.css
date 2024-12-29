@@ -61,7 +61,7 @@ body {
 }
 
 /*Logo on top right*/
-img{
+.deskimg{
   width: 100px;
   height: 100px;
   position: fixed;
@@ -160,6 +160,7 @@ h2{
 .clicked:hover{
   color: yellow;
 }
+
 i {
   display: inline-block;
   width: 38px;
@@ -337,7 +338,11 @@ p:hover {
   scrollbar-width: none;  /* Firefox */
 }
 
-
+/*ABOUTMEEE*/
+#const4 {
+  color: black;
+  font-family: myfont;
+}
 /*creations*/
 
 
@@ -409,15 +414,65 @@ p:hover {
   }
   .flex_containeru {
     margin-left: 20px;
+    margin-right: 20px;
+    text-size-adjust: 55%;
   }
-  .logomobile {
-    width: 10vw;
+  .flex_containerC {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-size-adjust: 60%;
+
+  }
+  .mono1 {
+    height: 40px;
+  }
+  .greet2 {
+    height: 50px;
+  }
+  .icon {
+    top:21px;
+  }
+  .me {
+    height: 29px;
+    width: 60px;
+    margin-top: 6px;
+  }
+  .greetbottom {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .empty {
+    display: flex;
+    justify-content: center;
+
+ }
+  .clickedhome{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    width: fit-content;
+  }
+  .clickedhome:hover{
+    color: yellow;
+  }
+  .emptymob {
+    width: 50vw;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.07);
+  }
+  .empty2 {
+    display: none;
   }
   .mobimg {
-    width: 13vw;
-    height: 13vw;
-    position: fixed;
-    left: 40px;
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    top: 22px;
+    left: 20px;
+  }
+  .homemob {
+    display: inline-block;
+    right: 40px;
     top: 40px;
   }
   .menuselect {
@@ -433,32 +488,31 @@ p:hover {
     height: 30px;
   }
   .bckborder {
-    border: 0px;
+    /*border: 0px;*/
   }
   .ShowOnMobile {
-    display: initial;
+    display: revert;
+  }
+  .emptytop{
+    height: 10px;
   }
 }
 
 @media (min-width: 781px) {
   .HideOnMobile {
-    display: initial;
+    display: revert;
   }
   .ShowOnMobile {
     display: none;
   }
-
+  .emptymob {
+    display: none;
+  }
 }
 
 
 /*Error message on mobile here*/
-.showonMobile {
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 100vh;
-}
+
 .error {
   font-family: "myfont";
   width: 90%;
