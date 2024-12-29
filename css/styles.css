@@ -1,8 +1,23 @@
 body {
-  background-image: linear-gradient(to right, #000000, 	#000000);
+  background-image: url("../resources/bckhome.png");
   margin: 2vh;
   height: 96vh;
+  overflow: hidden;
+}
+.creations {
+  background-image: url("../resources/bckcreations.png");
+}
+
+.bckborder {
   border: 0.1px solid white;
+  height: 100%;
+  width: 100%;
+}
+.aboutme {
+  background-image: linear-gradient(to right, yellow, yellow);
+  margin: 2vh;
+  height: 96vh;
+  border: 0.1px solid black;
   overflow: hidden;
 }
 
@@ -30,47 +45,6 @@ body {
   url('./fonts/NexaH.ttf') format('woff'),              /* Pretty Modern Browsers */
   url('./fonts/NexaH.ttf') format('truetype'),          /* Safari, Android, iOS */
   url('./fonts/NexaH.ttf') format('svg');
-}
-
-/*Mobile Display here*/
-@media (max-width: 768px) {
-  .HideOnMobile {
-    display: none;
-  }
-  .ShowOnMobile {
-    display: flex;
-  }
-}
-
-@media (min-width: 768px) {
-  .HideOnMobile {
-    display: initial;
-  }
-  .ShowOnMobile {
-    display: none;
-  }
-
-}
-
-
-/*Error message on mobile here*/
-.showonMobile {
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 100vh;
-}
-.error {
-  font-family: "myfont";
-  width: 90%;
-  font-size: 40px;
-}
-.desktop{
-  color: white;
-}
-.size {
-  color: gray;
 }
 
 
@@ -174,14 +148,17 @@ h2{
   font-weight: bold;
 }
 
-
-
 .clicked{
   background-color: transparent;
+  color: white;
+  text-align: center;
   border-radius: 50%;
-  margin: 0;
+  margin: 20px;
   height: 38px;
-  width: 38px;
+  width: 100%;
+}
+.clicked:hover{
+  color: yellow;
 }
 i {
   display: inline-block;
@@ -200,7 +177,7 @@ i {
   /*height: 28px;*/
 }
 .unselected:hover {
-  color: darkslategray;
+  color: deepskyblue;
 }
 
 
@@ -233,12 +210,25 @@ p {
 p:hover {
   color: gray;
 }
+.hyperroots {
+  width: 110px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
 .greettop {
   display: flex;
   flex-direction: row;
   justify-content: right;
 }
-@media (max-width: 885px) {
+.greetbottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+@media (max-width: 910px) {
   .greettop {
     flex-direction: column;
   }
@@ -246,6 +236,7 @@ p:hover {
     height: 0px !important;
   }
 }
+
 
 .mono1{
   font-family: "micro";
@@ -348,6 +339,8 @@ p:hover {
 
 
 /*creations*/
+
+
 .flex_containerC {
   height: 96vh;
   display: block;
@@ -401,6 +394,79 @@ p:hover {
 .flex_c:hover .Project{
   color: deepskyblue;
 }
+
 .flex_c:hover .Projectunder{
   color: white;
+}
+
+
+
+/*MOBILE DISPLA HEREREEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
+
+@media (max-width: 781px) {
+  .HideOnMobile {
+    display: none;
+  }
+  .flex_containeru {
+    margin-left: 20px;
+  }
+  .logomobile {
+    width: 10vw;
+  }
+  .mobimg {
+    width: 13vw;
+    height: 13vw;
+    position: fixed;
+    left: 40px;
+    top: 40px;
+  }
+  .menuselect {
+    background-image: linear-gradient(black, black);
+  }
+  .mobpage {
+    font-family: "myfont2", serif;
+    position: fixed;
+    color: gray;
+    top: 135px;
+    font-size: 20px;
+    margin: 0;
+    height: 30px;
+  }
+  .bckborder {
+    border: 0px;
+  }
+  .ShowOnMobile {
+    display: initial;
+  }
+}
+
+@media (min-width: 781px) {
+  .HideOnMobile {
+    display: initial;
+  }
+  .ShowOnMobile {
+    display: none;
+  }
+
+}
+
+
+/*Error message on mobile here*/
+.showonMobile {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.error {
+  font-family: "myfont";
+  width: 90%;
+  font-size: 40px;
+}
+.desktop{
+  color: white;
+}
+.size {
+  color: gray;
 }
