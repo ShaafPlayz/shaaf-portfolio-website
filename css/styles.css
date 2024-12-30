@@ -8,6 +8,9 @@ body {
 .creations {
   background-image: url("../resources/bckcreations.png");
 }
+.codeproj {
+  background-color: white;
+}
 #myVideo {
   width: 100%;
   height: 100%;
@@ -37,6 +40,11 @@ body {
 
 .bckborder {
   border: 0.1px solid white;
+  height: 100%;
+  width: 100%;
+}
+.porj {
+  border: 0.1px solid black;
   height: 100%;
   width: 100%;
 }
@@ -78,7 +86,7 @@ body {
 
 /*Sidebar*/
 .sidenavbar {
-  width: 100px;
+  width: 150px;
   display: grid;
   position: fixed;
   height: 100vh;
@@ -105,6 +113,49 @@ body {
   left: 50px;
   color: white;
 }
+.prj {
+  margin: 9px;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 30px;
+  width: 99px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.fa {
+  margin: 9px;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 30px;
+  width: 99px;
+  text-align: center;
+  text-decoration: none;
+}
+.greetlink {
+  display: flex;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  background: #ffffff;
+  color: #000000;
+}
+.fa-linkedin{
+  background: #0077b5;
+  color: #ffffff;
+}
+.fa-upwork{
+  background: #ffffff;
+  color: #000000;
+}
+
+
 .watermark {
   position: fixed;
   font-family: "micro", serif;
@@ -385,6 +436,14 @@ p:hover {
   font-family: myfont;
   font-size: 26px;
 }
+#const7 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: black;
+  font-family: myfont2;
+  font-size: 26px;
+}
 #const6 {
   display: flex;
   justify-content: right;
@@ -532,6 +591,14 @@ p:hover {
     font-family: myfont;
     font-size: 5vw;
   }
+  #const7 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
+    font-family: myfont2;
+    font-size: 5vw;
+  }
   .imgholder {
     display: inline-block;
     text-align: right;
@@ -545,7 +612,23 @@ p:hover {
     height: 30vw;
     margin-right: 4vw;
   }
-
+  .fa {
+    margin: 1vw;
+    margin-top: 5vw;
+    padding: 3vw;
+    border-radius: 3vw;
+    font-size: 6vw;
+    width: 15vw;
+  }
+  .prj {
+    margin: 0vw;
+    margin-top: 5vw;
+    padding: 0vw;
+    margin-left: 79%;
+    border-radius: 3vw;
+    font-size: 6vw;
+    width: 15vw;
+  }
   .bckborder {
     border: 0px;
   }
@@ -604,7 +687,7 @@ p:hover {
     margin-bottom: 4px;
   }
   #const1 {
-    font-size: 5vw;
+    font-size: 4vw;
     letter-spacing: -0.2vw;
   }
   .mono1 {
@@ -680,7 +763,7 @@ p:hover {
     align-items: center;
     color: white;
     font-family: myfont;
-    font-size: 3vw;
+    font-size: 5vw;
   }
   .mobpage {
     font-family: "myfont2", serif;
