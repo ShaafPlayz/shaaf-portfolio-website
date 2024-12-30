@@ -1,5 +1,5 @@
 body {
-  background-image: url("../resources/bckhome.png");
+  /*background-image: url("../resources/bckhome.png");*/
   background-color: black;
   margin: 2vh;
   height: 96vh;
@@ -8,7 +8,32 @@ body {
 .creations {
   background-image: url("../resources/bckcreations.png");
 }
-
+#myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -3;
+  top: 0%;
+  left: 0%;
+}
+.bckfullmob1 {
+  z-index: -1;
+  margin: 0;
+  height: 110vh;
+  width: 110vw;
+  background-color: rgb(0 0 0 / 50%);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.fun {
+  background-image: linear-gradient(to right, #000000, #000000);
+  margin: 0vh;
+  height: 100vh;
+  border: 0;
+  overflow: hidden;
+}
 
 .bckborder {
   border: 0.1px solid white;
@@ -360,6 +385,14 @@ p:hover {
   font-family: myfont;
   font-size: 26px;
 }
+#const6 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+  font-family: myfont;
+  font-size: 26px;
+}
 .imgholder {
   display: inline-block;
   text-align: right;
@@ -641,6 +674,14 @@ p:hover {
   .menuselect {
     background-image: linear-gradient(black, black);
   }
+  #const6 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    font-family: myfont;
+    font-size: 3vw;
+  }
   .mobpage {
     font-family: "myfont2", serif;
     position: fixed;
@@ -664,6 +705,9 @@ p:hover {
 @media (min-width: 855px) {
   .HideOnMobile {
     display: revert;
+  }
+  .sidenavbar {
+    display: grid;
   }
   .ShowOnMobile {
     display: none;
