@@ -556,6 +556,7 @@ p:hover {
     font-size: 28px;
     z-index: 2;
     color: white;
+    letter-spacing: -0.2vw;
   }
   .Project {
     text-align: right;
