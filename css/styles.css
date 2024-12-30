@@ -9,12 +9,14 @@ body {
   background-image: url("../resources/bckcreations.png");
 }
 
+
 .bckborder {
   border: 0.1px solid white;
   height: 100%;
   width: 100%;
 }
 .aboutme {
+  /*background-image: url("../resources/bckroots.png");*/
   background-image: linear-gradient(to right, yellow, yellow);
   margin: 2vh;
   height: 96vh;
