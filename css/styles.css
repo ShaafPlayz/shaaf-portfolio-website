@@ -489,6 +489,30 @@ p:hover {
   overflow-y: auto;
   scroll-behavior: smooth;
 }
+.flex_containerR  {
+  height: 96vh;
+  display: flex;
+  text-align: right;
+  align-content: flex-end;
+  margin-left: 155px;
+  margin-right: 50px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.flex_containerR::-webkit-scrollbar {
+  display: none;
+}
+.flex_containerR {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
 .flex_containerC::-webkit-scrollbar {
   display: none;
 }
@@ -570,6 +594,21 @@ p:hover {
     postion: relative;
   }
   .flex_containerC {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    width: 94%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 15vw;
+    align-content: center;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+  }
+  .flex_containerR {
     display: flex;
     flex-direction: column;
     text-align: center;
