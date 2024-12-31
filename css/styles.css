@@ -291,8 +291,8 @@ p:hover {
   color: gray;
 }
 .hyperroots {
-  width: 110px;
-  height: 36px;
+  width: 20%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: right;
@@ -359,6 +359,8 @@ p:hover {
   color: white;
   font-family: "myfont2", serif;
   font-size: 25px;
+  padding-right: 0px;
+
   text-align: right;
   height: auto;
   margin: 0;
@@ -443,6 +445,14 @@ p:hover {
   color: black;
   font-family: myfont2;
   font-size: 26px;
+}
+#const8 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: black;
+  font-family: myfont2;
+  font-size: 22px;
 }
 #const6 {
   display: flex;
@@ -544,6 +554,7 @@ p:hover {
   }
   .aboutme {border: 0px;height: 100vh;margin: 0;}
   .creations {
+    background-image: linear-gradient(black, black);
     background-size: contain;
     height: 100vh;
     margin-top: 0vh;
@@ -564,6 +575,7 @@ p:hover {
     width: 94%;
     margin-left: 3vw;
     margin-right: 3vw;
+    margin-top: 15vw;
     align-content: center;
     overflow-x: hidden;
     position: relative;
@@ -583,6 +595,10 @@ p:hover {
     font-family: myfont;
     font-size: 15vw;
   }
+  .icon::before{
+    position: absolute;
+    top: 50%;
+  }
   #const5 {
     display: flex;
     justify-content: right;
@@ -598,6 +614,14 @@ p:hover {
     color: black;
     font-family: myfont2;
     font-size: 5vw;
+  }
+  #const8 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
+    font-family: myfont2;
+    font-size: 4vw;
   }
   .imgholder {
     display: inline-block;
@@ -676,11 +700,11 @@ p:hover {
   }
   .Project {
     text-align: right;
-    font-size: 9vw;
+    font-size: 8vw;
   }
   .Projectunder {
     text-align: right;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .empty {
     margin-top: 0px;
@@ -689,6 +713,9 @@ p:hover {
   #const1 {
     font-size: 4vw;
     letter-spacing: -0.2vw;
+    padding-right: 2vw;
+    height: 100%;
+    align-content: center;
   }
   .mono1 {
     font-size: 19vw;
@@ -703,7 +730,7 @@ p:hover {
     height: 16vw;
   }
   .icon {
-    top: 5.3vw;
+    top: 0vw;
     width: 3vw;
     padding-left: 6%;
   }
@@ -711,11 +738,12 @@ p:hover {
     height: 7vw;
     width: 20vw;
     font-size: 4.5vw;
-    margin-top: 8%;
+    margin: auto;
+
   }
 
   .greetbottom {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
   }
   .empty {
