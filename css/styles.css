@@ -357,7 +357,7 @@ p:hover {
 }
 #const1 {
   color: white;
-  font-family: "myfont2", serif;
+  font-family: "myfont", serif;
   font-size: 25px;
   padding-right: 0px;
 
@@ -570,8 +570,10 @@ p:hover {
     postion: relative;
   }
   .flex_containerC {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: flex-start;
     width: 94%;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -691,9 +693,9 @@ p:hover {
   }
 
   .page {
-    top: 39px;
+    top: 44px;
     left: 85px;
-    font-size: 23px;
+    font-size: 18px;
     z-index: 2;
     color: white;
     letter-spacing: -0.2vw;
