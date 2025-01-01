@@ -6,10 +6,11 @@ body {
   overflow: hidden;
 }
 .creations {
-  background-image: url("../resources/bckcreations.png");
+  /* background-image: url("../resources/bckcreations.png"); */
 }
 .codeproj {
   background-color: white;
+
 }
 #myVideo {
   width: 100%;
@@ -44,9 +45,18 @@ body {
   width: 100%;
 }
 .porj {
-  border: 0.1px solid black;
+  display: flex;
+  border: 0px;
+  height: 100vh;
+  margin: 0;
+  align-items: flex-end;
+  flex-direction: row;
+
+  border: 0.1px solid white;
   height: 100%;
   width: 100%;
+
+  justify-content: flex-end;
 }
 .aboutme {
   /*background-image: url("../resources/bckroots.png");*/
@@ -89,7 +99,7 @@ body {
   width: 150px;
   display: grid;
   position: fixed;
-  height: 100vh;
+  height: 96vh;
   /*z-index: 1;*/
   left: 50px;
   /*overflow: hidden;*/
@@ -296,6 +306,7 @@ p:hover {
   display: flex;
   flex-direction: row;
   justify-content: right;
+  align-items: center;
 }
 
 .greettop {
@@ -576,7 +587,14 @@ p:hover {
     background-size: contain;
 
   }
-  .aboutme {border: 0px;height: 100vh;margin: 0;}
+  .aboutme {
+    display: flex;
+    border: 0px;
+    height: 100vh;
+    margin: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
   .creations {
     background-image: linear-gradient(black, black);
     background-size: contain;
@@ -594,7 +612,7 @@ p:hover {
     postion: relative;
   }
   .flex_containerC {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
@@ -606,22 +624,30 @@ p:hover {
     overflow-x: hidden;
     position: relative;
     z-index: 1;
-    height: 100vh;
+    height: 100vh; */
+
+
+    display: grid;
+    width: 94%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    height: 88vh;
+    align-content: space-evenly;
+
   }
   .flex_containerR {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: flex-start;
+    display: grid;
     width: 94%;
     margin-left: 3vw;
     margin-right: 3vw;
-    margin-top: 15vw;
-    align-content: center;
     overflow-x: hidden;
     position: relative;
     z-index: 1;
-    height: 100vh;
+    height: 90vh;
+    align-content: space-evenly;
   }
   .flex_c{
     display: grid;
@@ -679,7 +705,7 @@ p:hover {
   }
   .fa {
     margin: 1vw;
-    margin-top: 5vw;
+    margin-top: 3vw;
     padding: 3vw;
     border-radius: 3vw;
     font-size: 6vw;
@@ -773,12 +799,12 @@ p:hover {
   .icon {
     top: 0vw;
     width: 3vw;
-    padding-left: 6%;
+    padding-left: 2%;
   }
   .me {
     height: 7vw;
-    width: 20vw;
-    font-size: 4.5vw;
+    width: 78vw;
+    font-size: 3.7vw;
     margin: auto;
 
   }
