@@ -409,7 +409,7 @@ p:hover {
   color: black;
   font-family: "myfont", serif;
   background-color: yellow;
-  font-size: 20px;
+  font-size: 16px;
   width: 400px;
   font-weight: bold;
   border-radius: 4px;
@@ -418,6 +418,7 @@ p:hover {
   align-content: center;
   text-anchor: middle;
   height: 36px;
+  text-transform: uppercase;
 }
 .icon{
   padding-left:7px;
@@ -840,14 +841,16 @@ p:hover {
   .me {
     height: 7vw;
     width: 65vw;
-    font-size: 2.7vw;
+    font-size: 2.5vw;
     margin: auto;
+    text-transform: uppercase;
 
   }
 
   .greetbottom {
     flex-direction: row;
     align-items: flex-end;
+    margin-top: 2vw;
   }
   .empty {
     display: flex;

@@ -9,7 +9,20 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<meta charset="UTF-8">
 	<meta name ='viewport' content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Home Page</title>
+
+	<script>
+         window.onload = function() {
+             var videoElement = document.getElementById("myVideo");
+             if (window.innerWidth <= 855) {
+                 videoElement.style.display = "none";
+             }
+         };
+     </script>
+
+
+
+
 </head>
 <video autoplay muted loop id="myVideo" class="HideOnMobile">
 	<source src="resources/test.mp4" type="video/mp4"></source>
