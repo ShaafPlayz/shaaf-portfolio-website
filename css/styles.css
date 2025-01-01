@@ -291,7 +291,7 @@ p:hover {
   color: gray;
 }
 .hyperroots {
-  width: 20%;
+  width: max-content;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -369,8 +369,8 @@ p:hover {
   color: black;
   font-family: "myfont", serif;
   background-color: yellow;
-  font-size: 25px;
-  width: 90px;
+  font-size: 20px;
+  width: 400px;
   font-weight: bold;
   border-radius: 4px;
   text-decoration: none;
@@ -407,7 +407,7 @@ p:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  margin-left: 155px;
+  margin-left: 200px;
   margin-right: 50px;
   overflow-y: auto;
 }
