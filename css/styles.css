@@ -40,7 +40,7 @@ body {
 }
 
 .bckborder {
-  /* border: 0.1px solid white; */
+   /*border: 0.1px solid gold;*/
   height: 100%;
   width: 100%;
 }
@@ -51,7 +51,7 @@ body {
   align-items: flex-end;
   flex-direction: row;
 
-  /* border: 0.1px solid white; */
+   border: 0.1px solid gold;
   height: 100%;
   width: 100%;
 
@@ -185,7 +185,8 @@ body {
 .buildupdate {
   font-family: "myfont2", serif;
   position: fixed;
-  color: rgba(128, 128, 128, 0.63);
+  /*color: rgba(128, 128, 128, 0.63);*/
+  color: rgba(184, 134, 11, 0.45);
   bottom: 75px;
   font-size: 15px;
   margin: 0;
@@ -195,9 +196,9 @@ body {
 
   font-family: "myfont", serif;
   position: absolute;
-  text-decoration: none;
+  text-decoration: underline;
   color: gold;
-  bottom: 102px;
+  bottom: 104px;
   left: 54px;
   font-size: 20px;
   margin-left: 20px;
@@ -213,7 +214,8 @@ body {
 .build {
   font-family: "myfont2", serif;
   position: fixed;
-  color: rgba(128, 128, 128, 0.63);
+  /*color: rgba(128, 128, 128, 0.63);*/
+  color: rgba(184, 134, 11, 0.45);
   bottom: 60px;
   font-size: 20px;
   margin: 0;
@@ -222,7 +224,8 @@ body {
 .buildbottom {
   font-family: "myfont2", serif;
   position: fixed;
-  color: rgba(128, 128, 128, 0.63);
+  /*color: rgba(128, 128, 128, 0.63);*/
+  color: rgba(184, 134, 11, 0.45);
   bottom: 42px;
   font-size: 13.7px;
   margin: 0;
@@ -231,7 +234,7 @@ body {
 .copyright {
   font-family: "myfont2", serif;
   position: fixed;
-  color: #454545;
+  color: rgba(184, 134, 11, 0.45);
   bottom: 40px;
   font-size: 10px;
   margin: 0;
@@ -621,7 +624,10 @@ p:hover {
   white-space: pre;
   color: white;
 }
-
+.greetimg{
+  width: 20vw;
+  height: 20vw;
+}
 
 /*MOBILE DISPLA HEREREEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
 
@@ -879,6 +885,8 @@ p:hover {
     font-size: 10vw;
     height: 11vw;
     margin-top: -3vw;
+    letter-spacing: -0.5vw;
+
   }
 
   .icon {
@@ -926,6 +934,8 @@ p:hover {
     display: none;
   }
 
+
+
   .mobimg {
     width: 50px;
     position: absolute;
@@ -965,7 +975,7 @@ p:hover {
   }
 
   .bckborder {
-    /*border: 0px;*/
+    border: 0px;
   }
 
   .ShowOnMobile {
