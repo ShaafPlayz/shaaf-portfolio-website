@@ -470,7 +470,7 @@ p:hover {
   justify-content: right;
   align-items: center;
 
-  height: 71px;
+  height: auto;
   color: black;
   font-family: myfont, serif;
   font-size: 85px;
@@ -684,7 +684,14 @@ p:hover {
     align-content: space-evenly;
 
   }
+  .flex_containerP {
 
+    display: inline-block;
+    width: 94%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 80vh;
+  }
   .flex_containerR {
     display: grid;
     width: 94%;
@@ -707,7 +714,7 @@ p:hover {
     justify-content: right;
     align-items: center;
 
-    height: 12vw;
+    height: auto;
     color: black;
     font-family: myfont, serif;
     font-size: 15vw;
@@ -754,6 +761,7 @@ p:hover {
     font-size: 3.2vw;
   }
 
+
   .imgholder {
     display: inline-block;
     text-align: right;
@@ -783,8 +791,12 @@ p:hover {
     margin: 5vw 0 0 79%;
     border-radius: 3vw;
     font-size: 6vw;
-    width: 15vw;
+    width: 25vw;
+    height: 11vw;
+    justify-self: flex-end;
+    align-content: center;
   }
+
 
   .bckborder {
     border: 0;
