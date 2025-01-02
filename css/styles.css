@@ -18,8 +18,8 @@ body {
   object-fit: cover;
   position: fixed;
   z-index: -3;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
 }
 .bckfullmob1 {
   z-index: -1;
@@ -28,12 +28,12 @@ body {
   width: 110vw;
   background-color: rgb(0 0 0 / 50%);
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 .fun {
   background-image: linear-gradient(to right, #000000, #000000);
-  margin: 0vh;
+  margin: 0;
   height: 100vh;
   border: 0;
   overflow: hidden;
@@ -46,8 +46,7 @@ body {
 }
 .porj {
   display: flex;
-  border: 0px;
-  height: 100vh;
+  border: 0;
   margin: 0;
   align-items: flex-end;
   flex-direction: row;
@@ -70,27 +69,27 @@ body {
 /*Fonts here*/
 @font-face {
   font-family: "micro";
-  src: url('./fonts/micro5.ttf') format('embedded-opentype'), /* Internet Explorer */
+  src: url('../fonts/micro5.ttf') format('embedded-opentype'), /* Internet Explorer */
   url('../fonts/micro5.ttf') format('woff2'),             /* Super Modern Browsers */
-  url('./fonts/micro5.ttf') format('woff'),              /* Pretty Modern Browsers */
-  url('./fonts/micro5.ttf') format('truetype'),          /* Safari, Android, iOS */
-  url('./fonts/micro5.ttf') format('svg');
+  url('../fonts/micro5.ttf') format('woff'),              /* Pretty Modern Browsers */
+  url('../fonts/micro5.ttf') format('truetype'),          /* Safari, Android, iOS */
+  url('../fonts/micro5.ttf') format('svg');
 }
 @font-face {
   font-family: "myfont2";
-  src: url('./fonts/NexaL.ttf') format('embedded-opentype'), /* Internet Explorer */
+  src: url('../fonts/NexaL.ttf') format('embedded-opentype'), /* Internet Explorer */
   url('../fonts/NexaL.ttf') format('woff2'),             /* Super Modern Browsers */
-  url('./fonts/NexaL.ttf') format('woff'),              /* Pretty Modern Browsers */
-  url('./fonts/NexaL.ttf') format('truetype'),          /* Safari, Android, iOS */
-  url('./fonts/NexaL.ttf') format('svg');
+  url('../fonts/NexaL.ttf') format('woff'),              /* Pretty Modern Browsers */
+  url('../fonts/NexaL.ttf') format('truetype'),          /* Safari, Android, iOS */
+  url('../fonts/NexaL.ttf') format('svg');
 }
 @font-face {
   font-family: "myfont";
-  src: url('./fonts/NexaH.ttf') format('embedded-opentype'), /* Internet Explorer */
+  src: url('../fonts/NexaH.ttf') format('embedded-opentype'), /* Internet Explorer */
   url('../fonts/NexaH.ttf') format('woff2'),             /* Super Modern Browsers */
-  url('./fonts/NexaH.ttf') format('woff'),              /* Pretty Modern Browsers */
-  url('./fonts/NexaH.ttf') format('truetype'),          /* Safari, Android, iOS */
-  url('./fonts/NexaH.ttf') format('svg');
+  url('../fonts/NexaH.ttf') format('woff'),              /* Pretty Modern Browsers */
+  url('../fonts/NexaH.ttf') format('truetype'),          /* Safari, Android, iOS */
+  url('../fonts/NexaH.ttf') format('svg');
 }
 
 
@@ -124,8 +123,7 @@ body {
   color: white;
 }
 .prj {
-  margin: 9px;
-  margin-top: 12px;
+  margin: 12px 9px 9px;
   padding: 10px;
   border-radius: 8px;
   font-size: 30px;
@@ -135,8 +133,7 @@ body {
 }
 
 .fa {
-  margin: 9px;
-  margin-top: 12px;
+  margin: 12px 9px 9px;
   padding: 10px;
   border-radius: 8px;
   font-size: 30px;
@@ -347,12 +344,12 @@ p:hover {
     flex-direction: column;
   }
   #spacer{
-    height: 0px !important;
+    height: 0 !important;
   }
 }
 
 .greet1 {
-  width: fit-content
+  width: fit-content;
   height: auto;
   z-index: 2;
   font-size: 32px;
@@ -400,7 +397,7 @@ p:hover {
   color: white;
   font-family: "myfont", serif;
   font-size: 25px;
-  padding-right: 0px;
+  padding-right: 0;
 
   text-align: right;
   height: auto;
@@ -472,7 +469,7 @@ p:hover {
 
   height: 71px;
   color: black;
-  font-family: myfont;
+  font-family: myfont, serif;
   font-size: 85px;
 }
 #const5 {
@@ -481,7 +478,7 @@ p:hover {
   justify-content: right;
   align-items: center;
   color: black;
-  font-family: myfont;
+  font-family: myfont, serif;
   font-size: 26px;
 }
 #const7 {
@@ -489,7 +486,7 @@ p:hover {
   justify-content: right;
   align-items: center;
   color: black;
-  font-family: myfont2;
+  font-family: myfont2, serif;
   font-size: 26px;
 }
 #const8 {
@@ -500,7 +497,7 @@ p:hover {
   align-items: center;
   color: black;
   margin-left: 30%;
-  font-family: myfont;
+  font-family: myfont, serif;
   font-size: 25px;
 }
 #const9 {
@@ -510,7 +507,7 @@ p:hover {
   justify-content: right;
   align-items: center;
   color: black;
-  font-family: myfont;
+  font-family: myfont, serif;
   font-size: 15px;
 }
 #const6 {
@@ -518,7 +515,7 @@ p:hover {
   justify-content: right;
   align-items: center;
   color: white;
-  font-family: myfont;
+  font-family: myfont, serif;
   font-size: 26px;
 }
 .imgholder {
@@ -555,7 +552,7 @@ p:hover {
   align-content: flex-end;
   margin-left: 155px;
   margin-right: 50px;
-  overflow-y: auto;
+  overflow-y: scroll;
   scroll-behavior: smooth;
   flex-direction: column;
   justify-content: center;
@@ -597,12 +594,12 @@ p:hover {
 
 /*Porjects*/
 .Project {
-  font-family: "myfont";
+  font-family: "myfont", serif;
   color: #CACACA;
   font-size: 40px;
 }
 .Projectunder {
-  font-family: "myfont2";
+  font-family: "myfont2", serif;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.35);
   margin-bottom: 9px;
@@ -632,40 +629,42 @@ p:hover {
   .HideOnMobile {
     display: none;
   }
+
   .body {
     background-size: contain;
   }
+
   .homebckmob {
     background-size: contain;
 
   }
+
   .aboutme {
     display: flex;
-    border: 0px;
+    border: 0;
     height: 100vh;
     margin: 0;
     align-items: flex-end;
     flex-direction: row;
   }
+
   .creations {
     background-image: linear-gradient(black, black);
     background-size: contain;
     height: 100vh;
-    margin-top: 0vh;
-    margin-bottom: 0vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    height: 100vh;
+    margin: 0 1vh;
   }
+
   .flex_containeru {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
   }
+
   .flex_containerC {
 
     display: grid;
@@ -679,6 +678,7 @@ p:hover {
     align-content: space-evenly;
 
   }
+
   .flex_containerR {
     display: grid;
     width: 94%;
@@ -689,10 +689,13 @@ p:hover {
     z-index: 1;
     height: 90vh;
     align-content: space-evenly;
+    justify-items: right;
   }
-  .flex_c{
+
+  .flex_c {
     display: grid;
   }
+
   #const4 {
     display: flex;
     justify-content: right;
@@ -700,78 +703,87 @@ p:hover {
 
     height: 12vw;
     color: black;
-    font-family: myfont;
+    font-family: myfont, serif;
     font-size: 15vw;
   }
-  .icon::before{
+
+  .icon::before {
     position: absolute;
     top: 50%;
   }
+
   #const5 {
     display: flex;
     justify-content: right;
     align-items: center;
     color: black;
-    font-family: myfont;
+    font-family: myfont, serif;
     font-size: 5vw;
   }
+
   #const7 {
     display: flex;
     justify-content: right;
     align-items: center;
     color: black;
-    font-family: myfont2;
+    font-family: myfont2, serif;
     font-size: 5vw;
   }
+
   #const8 {
     display: flex;
     justify-content: right;
     align-items: center;
     color: black;
-    font-family: myfont;
+    font-family: myfont, serif;
     font-size: 3.2vw;
   }
+
   #const9 {
     display: flex;
     justify-content: right;
     align-items: center;
     color: black;
-    font-family: myfont;
+    font-family: myfont, serif;
     font-size: 3.2vw;
   }
+
   .imgholder {
     display: inline-block;
     text-align: right;
   }
+
   #edu {
     margin-top: 10vw;
     height: 25vw;
   }
+
   #card {
     margin-top: 3vw;
     height: 30vw;
     margin-right: 4vw;
   }
+
   .fa {
-    margin: 1vw;
-    margin-top: 3vw;
+    margin: 3vw 1vw 1vw;
     padding: 3vw;
     border-radius: 3vw;
     font-size: 6vw;
     width: 15vw;
   }
+
   .prj {
-    margin: 0vw;
-    margin-top: 5vw;
-    padding: 0vw;
-    margin-left: 79%;
+    padding: 0;
+    margin: 5vw 0 0 79%;
     border-radius: 3vw;
     font-size: 6vw;
     width: 15vw;
   }
+
   .bckborder {
-    border: 0px;
+    border: 0;
   }
+
   .bckfullmob {
     z-index: -1;
     margin: 0;
@@ -779,9 +791,10 @@ p:hover {
     width: 110vw;
     background-color: rgb(0 0 0 / 16%);
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
   }
+
   .bcktopbarmob {
     z-index: 2;
     margin: 0;
@@ -789,22 +802,26 @@ p:hover {
     width: 110vw;
     background-color: rgb(0 0 0 / 83%);
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
   }
 
   .buildupdate {
     bottom: 145px;
   }
+
   .build {
     bottom: 130px;
   }
+
   .buildbottom {
     bottom: 112px;
   }
+
   .copyright {
     bottom: 110px;
   }
+
   #linemain {
     font-size: 1.7vw;
     white-space: pre;
@@ -819,18 +836,22 @@ p:hover {
     color: white;
     letter-spacing: -0.2vw;
   }
+
   .Project {
     text-align: right;
     font-size: 8vw;
   }
+
   .Projectunder {
     text-align: right;
     font-size: 4vw;
   }
+
   .empty {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 4px;
   }
+
   #const1 {
     font-size: 4vw;
     letter-spacing: -0.2vw;
@@ -838,28 +859,34 @@ p:hover {
     height: 100%;
     align-content: center;
   }
+
   .mono1 {
     font-size: 19vw;
     height: 13vw;
     letter-spacing: -0.7vw;
   }
+
   #spacer {
     display: none;
   }
+
   .greet1 {
     font-size: 5vw;
     height: auto;
   }
+
   .greet2 {
     font-size: 10vw;
     height: 11vw;
     margin-top: -3vw;
   }
+
   .icon {
-    top: 0vw;
+    top: 0;
     width: 3vw;
     padding-left: 2%;
   }
+
   .me {
     height: 7vw;
     width: 65vw;
@@ -875,29 +902,30 @@ p:hover {
     margin-top: 2vw;
     margin-bottom: 0;
   }
-  .empty {
-    display: flex;
-    justify-content: center;
 
- }
-  .clickedhome{
+
+  .clickedhome {
     position: absolute;
     z-index: 10;
     right: 30px;
     top: 36px;
     width: fit-content;
   }
-  .clickedhome:hover{
+
+  .clickedhome:hover {
     color: yellow;
   }
+
   .emptymob {
     width: 50vw;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.07);
   }
+
   .empty2 {
     display: none;
   }
+
   .mobimg {
     width: 50px;
     position: absolute;
@@ -906,22 +934,26 @@ p:hover {
     left: 30px;
     z-index: 2;
   }
+
   .homemob {
     display: inline-block;
     right: 40px;
     top: 40px;
   }
+
   .menuselect {
     background-image: linear-gradient(black, black);
   }
+
   #const6 {
     display: flex;
     justify-content: right;
     align-items: center;
     color: white;
-    font-family: myfont;
+    font-family: myfont, serif;
     font-size: 5vw;
   }
+
   .mobpage {
     font-family: "myfont2", serif;
     position: fixed;
@@ -931,13 +963,16 @@ p:hover {
     margin: 0;
     height: 30px;
   }
+
   .bckborder {
     /*border: 0px;*/
   }
+
   .ShowOnMobile {
     display: revert;
   }
-  .emptytop{
+
+  .emptytop {
     height: 10px;
   }
 }
@@ -961,7 +996,7 @@ p:hover {
 /*Error message on mobile here*/
 
 .error {
-  font-family: "myfont";
+  font-family: "myfont", serif;
   width: 90%;
   font-size: 40px;
 }
