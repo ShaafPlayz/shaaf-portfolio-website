@@ -143,6 +143,7 @@ body {
   width: 99px;
   text-align: center;
   text-decoration: none;
+  border: 0.001px solid gold;
 }
 .greetlink {
   display: flex;
@@ -150,20 +151,21 @@ body {
 }
 
 .fa:hover {
-  opacity: 0.7;
+  color: black;
+  background: gold;
 }
 
 .fa-github {
-  background: #ffffff;
-  color: #000000;
+  background: #000000;
+  color: gold;
 }
 .fa-linkedin{
-  background: #0077b5;
-  color: #ffffff;
+  background: #000000;
+  color: gold;
 }
 .fa-upwork{
-  background: #ffffff;
-  color: #000000;
+  background: #000000;
+  color: gold;
 }
 
 
@@ -177,7 +179,7 @@ body {
 .page {
   font-family: "myfont2", serif;
   position: fixed;
-  color: gray;
+  color: rgba(255, 218, 0, 0.5);
   top: 135px;
   font-size: 20px;
   margin: 0;
@@ -197,8 +199,8 @@ body {
   font-family: "myfont", serif;
   position: absolute;
   text-decoration: none;
-  color: white;
-  bottom: 116px;
+  color: gold;
+  bottom: 102px;
   left: 54px;
   font-size: 20px;
   margin-left: 20px;
@@ -208,7 +210,7 @@ body {
 }
 .fa-download::before{
   position: fixed;
-  bottom: 124px;
+  bottom: 110px;
   left: 50px;
 }
 .build {
@@ -356,20 +358,19 @@ p:hover {
   font-size: 32px;
   color: white;
   text-transform: uppercase;
-  color: yellow;
+  color: rgba(255, 215, 0, 0.82);
 }
 .greet1:hover{
-  color: gold;
+  color: white;
 }
 
 .greet2 {
   margin-top: -25px;
   padding-bottom: 10px;
   z-index: 1;
-  color: deepskyblue;
+  color: rgba(232, 232, 232, 0.93);
   height: 79px;
   font-size: 70px;
-  color: white;
   text-transform: uppercase;
 }
 
@@ -406,13 +407,14 @@ p:hover {
   margin: 0;
 }
 .me {
-  color: black;
+  color: gold;
   font-family: "myfont", serif;
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0);
+  border: 0.5px solid gold;
   font-size: 16px;
   width: 400px;
   font-weight: bold;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   text-decoration: none;
   text-align: center;
   align-content: center;
@@ -427,7 +429,8 @@ p:hover {
   color: yellow;
 }
 .me:hover {
-  background-color: deepskyblue;
+  background-color: gold;
+  color: black;
 }
 .me:hover i.icon {
   color: deepskyblue;
@@ -496,8 +499,19 @@ p:hover {
   justify-content: right;
   align-items: center;
   color: black;
+  margin-left: 30%;
   font-family: myfont;
-  font-size: 20px;
+  font-size: 25px;
+}
+#const9 {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: black;
+  font-family: myfont;
+  font-size: 15px;
 }
 #const6 {
   display: flex;
@@ -513,7 +527,7 @@ p:hover {
   direction: rtl;
 }
 #edu {
-  margin-top: 3px;
+  margin-top: 50px;
   height: 160px;
 }
 #card {
@@ -715,14 +729,22 @@ p:hover {
     align-items: center;
     color: black;
     font-family: myfont;
-    font-size: 3.6vw;
+    font-size: 3.2vw;
+  }
+  #const9 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
+    font-family: myfont;
+    font-size: 3.2vw;
   }
   .imgholder {
     display: inline-block;
     text-align: right;
   }
   #edu {
-    margin-top: 3vw;
+    margin-top: 10vw;
     height: 25vw;
   }
   #card {
@@ -825,12 +847,12 @@ p:hover {
     display: none;
   }
   .greet1 {
-    font-size: 7vw;
+    font-size: 5vw;
     height: auto;
   }
   .greet2 {
-    font-size: 12vw;
-    height: 16vw;
+    font-size: 10vw;
+    height: 11vw;
     margin-top: -3vw;
   }
   .icon {
@@ -851,6 +873,7 @@ p:hover {
     flex-direction: row;
     align-items: flex-end;
     margin-top: 2vw;
+    margin-bottom: 0;
   }
   .empty {
     display: flex;
