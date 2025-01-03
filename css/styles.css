@@ -469,11 +469,10 @@ p:hover {
   display: flex;
   justify-content: right;
   align-items: center;
-
-  height: auto;
   color: black;
   font-family: myfont, serif;
   font-size: 85px;
+  line-height: 80px;
 }
 #const5 {
 
@@ -481,7 +480,7 @@ p:hover {
   justify-content: right;
   align-items: center;
   color: black;
-  font-family: myfont, serif;
+  font-family: myfont2, serif;
   font-size: 26px;
 }
 #const7 {
@@ -492,6 +491,7 @@ p:hover {
   font-family: myfont2, serif;
   font-size: 26px;
 }
+
 #const8 {
   margin-top: 0;
   margin-bottom: 0;
@@ -499,8 +499,8 @@ p:hover {
   justify-content: right;
   align-items: center;
   color: black;
-  margin-left: 30%;
-  font-family: myfont, serif;
+  margin-left: 10%;
+  font-family: myfont2, serif;
   font-size: 25px;
 }
 #const9 {
@@ -554,11 +554,11 @@ p:hover {
   text-align: right;
   align-content: flex-end;
   margin-left: 155px;
-  margin-right: 50px;
+  margin-right: 25vw;
   overflow-y: scroll;
   scroll-behavior: smooth;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-end;
 }
 .flex_containerR::-webkit-scrollbar {
@@ -714,7 +714,7 @@ p:hover {
     justify-content: right;
     align-items: center;
 
-    height: auto;
+    line-height: 15vw;
     color: black;
     font-family: myfont, serif;
     font-size: 15vw;
@@ -730,7 +730,7 @@ p:hover {
     justify-content: right;
     align-items: center;
     color: black;
-    font-family: myfont, serif;
+    font-family: myfont2, serif;
     font-size: 5vw;
   }
 
@@ -748,7 +748,7 @@ p:hover {
     justify-content: right;
     align-items: center;
     color: black;
-    font-family: myfont, serif;
+    font-family: myfont2, serif;
     font-size: 3.2vw;
   }
 
